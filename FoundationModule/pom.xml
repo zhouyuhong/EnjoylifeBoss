@@ -104,7 +104,7 @@
         <!--百度云-->
         <dependency>
             <groupId>com.baidu</groupId>
-            <artifactId>com.baidu</artifactId>
+            <artifactId>baidu</artifactId>
             <version>${baidu.sdk.version}</version>
         </dependency>
     </dependencies>
