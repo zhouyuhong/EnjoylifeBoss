@@ -147,8 +147,8 @@ function setImageCanvas(url) {
     $("#getView").attr("src", url);
     $("#getScanView").attr("src", url);
     $('#getView').cropper({
-//            aspectRatio: 16 / 9,
-        aspectRatio: 1,
+        aspectRatio: 16 / 9,
+        // aspectRatio: 1,
         preview: '#preview-image',
         crop: function (e) {
             // Output the result data for cropping image.
